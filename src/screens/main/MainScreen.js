@@ -1,19 +1,36 @@
-import React from "react";
-import { View, Image, Text, ScrollView } from "react-native";
+import React, { useRef } from "react";
+import {
+  View,
+  Image,
+  Text,
+  ScrollView,
+  ImageBackground,
+  TouchableOpacity,
+} from "react-native";
 import MainScreenStyles from "./styles/MainScreenStyles";
 import MainScreenHeader from "./components/MainScreenHeader";
+import AboutSection from "./components/AboutSection";
+import FooterSection from "./components/FooterSection";
+import BusinessSection from "./components/BusinessSection";
 
 const MainScreen = () => {
   return (
-    <View>
+    <View style={MainScreenStyles.mainContainer}>
       <MainScreenHeader />
-      <View style={MainScreenStyles.container}>
-        <Image
-          source={require("../../../assets/background.jpg")}
-          style={MainScreenStyles.image}
-        />
-        <Text style={{ fontSize: 30 }}> Welcome to Webify </Text>
-      </View>
+      <ImageBackground
+        source={require("../../../assets/background-coffee-laptop.jpg")}
+        style={MainScreenStyles.backgroundImage}
+        resizeMode={"cover"}
+      >
+        <View style={MainScreenStyles.container}>
+          <Text style={MainScreenStyles.titleText}> Welcome to Webify </Text>
+          <Text style={MainScreenStyles.descriptionText}>
+            Start your internet journey with our morning cup of coffee
+          </Text>
+          <View style={MainScreenStyles.canvas}></View>
+        </View>
+      </ImageBackground>
+      <FooterSection />
     </View>
   );
 };
