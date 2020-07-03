@@ -1,17 +1,11 @@
 {
-  "name": "expoproj",
-  "displayName": "expoproj",
+  "name": "Webify",
+  "displayName": "Webify",
   "expo": {
     "name": "expoproj",
     "slug": "expoproj",
     "version": "1.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "platforms": ["web"],
+    "assetBundlePatterns": ["**/*"]
   }
 }

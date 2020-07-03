@@ -1,0 +1,27 @@
+{
+  "files": {
+    "app.js": "/static/js/app.0f923026.chunk.js",
+    "app.js.map": "/static/js/app.0f923026.chunk.js.map",
+    "runtime~app.js": "/static/js/runtime~app.4b0f5a04.js",
+    "runtime~app.js.map": "/static/js/runtime~app.4b0f5a04.js.map",
+    "static/js/2.dadba89a.chunk.js": "/static/js/2.dadba89a.chunk.js",
+    "static/js/2.dadba89a.chunk.js.map": "/static/js/2.dadba89a.chunk.js.map",
+    "index.html": "/index.html",
+    "manifest.json": "/manifest.json",
+    "serve.json": "/serve.json",
+    "static/media/background-coffee-laptop.jpg": "/static/media/background-coffee-laptop.c1dd6bbd.jpg",
+    "static/media/collaborate_group.jpg": "/static/media/collaborate_group.5a6b5d58.jpg",
+    "static/media/hands_together.jpg": "/static/media/hands_together.fdad9c44.jpg",
+    "static/media/idea_man.jpg": "/static/media/idea_man.742bbea9.jpg",
+    "static/media/me.jpg": "/static/media/me.f01adb5d.jpg",
+    "static/media/mug.png": "/static/media/mug.c0f26333.png",
+    "static/media/norbi_profile2.jpg": "/static/media/norbi_profile2.d6c50faa.jpg",
+    "static/media/paul_profile2.jpeg": "/static/media/paul_profile2.9e93c014.jpeg",
+    "static/media/shaking_hands.png": "/static/media/shaking_hands.2d3b8729.png"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.4b0f5a04.js",
+    "static/js/2.dadba89a.chunk.js",
+    "static/js/app.0f923026.chunk.js"
+  ]
+}
